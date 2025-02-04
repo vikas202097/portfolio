@@ -14,7 +14,10 @@
     color: green; /* Adjust the color as needed */
 }
 .highlight1 {
-    color: rgb(248, 233, 17); /* Adjust the color as needed */
+    color: rgb(0,0,0); /* Adjust the color as needed */
+}
+.highlight2 {
+    color: rgb(128, 0, 128); /* Adjust the color as needed */
 }
 /* imsge */
 .image-div1 {
