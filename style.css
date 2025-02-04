@@ -1203,36 +1203,38 @@ footer {
 }
 
 .info-div {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
-	gap: 20px;
-	padding: 0 40px
+  flex: 1;  /* Use flex for better responsiveness */
+  padding: 20px 30px; /* Adjust padding for more spacing */
+  gap: 15px; /* Reduce gap for better layout on small screens */
 }
 
+
 .faviconforProject {
-	width: 30px;
-	border-radius: 50%
+  width: 50px;  /* Increase width */
+  height: auto; /* Ensure it keeps its aspect ratio */
+  border-radius: 8px; /* Optional, reduce the border-radius to avoid it becoming too round */
 }
+
 
 .faviconforProjectAquaregia {
 	width: 20px
 }
 
 .image-div {
-	width: 50%;
-	height: 100%;
-	padding-top: 70px;
-	padding-left: 10px
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .image-div img {
-	height: 100%;
-	border-top-left-radius: 30px
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; /* Reduce the border-radius for a cleaner look */
+  object-fit: cover;  /* Prevent image distortion */
 }
+
 
 .ProjectHeading {
 	color: var(--color-white);
